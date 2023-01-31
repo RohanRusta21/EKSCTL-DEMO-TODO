@@ -38,6 +38,8 @@ https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.h
    EC2   
    VPC    
    CloudFormation
+   EKS
+   Administrator
 
 4. Create your cluster and nodes 
    ```sh
