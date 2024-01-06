@@ -7,6 +7,10 @@
 #### Article to Install aws-iam-authenticator :
 ```sh
 https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
+curl -o aws-iam-authenticator https://amazon-eks.s3.us-west-2.amazonaws.com/1.22.1/2021-07-05/bin/darwin/amd64/aws-iam-authenticator
+chmod +x ./aws-iam-authenticator
+mv ./aws-iam-authenticator /usr/local/bin/aws-iam-authenticator
+
 ```
 
 #### AWS EKS Setup 
